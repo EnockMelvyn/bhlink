@@ -13,7 +13,7 @@ import com.example.bhlink.dao.Compte;
 import com.example.bhlink.repository.CompteRepository;
 
 @RestController
-@RequestMapping("/comptes")
+@RequestMapping("/compte")
 @CrossOrigin
 public class CompteController{
     @Autowired
