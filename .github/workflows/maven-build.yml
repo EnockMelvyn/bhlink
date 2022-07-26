@@ -25,4 +25,5 @@ jobs:
       uses: stCarolas/setup-maven@v4.4
       with:
         maven-version: 3.8.2
-        run: mvn clean package
+    - name: build with maven  
+      run: mvn clean package
